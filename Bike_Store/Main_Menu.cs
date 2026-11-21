@@ -41,5 +41,25 @@ namespace Bike_Store
         {
 
         }
+
+        private void errorLogFormBttn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void logoutBttn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void salesReportsFormBttn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void shoppingCartFormBttn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
