@@ -92,7 +92,7 @@
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(49, 305);
+            this.btnSearch.Location = new System.Drawing.Point(78, 304);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(145, 23);
             this.btnSearch.TabIndex = 5;
@@ -102,7 +102,7 @@
             // 
             // btnAddCustomer
             // 
-            this.btnAddCustomer.Location = new System.Drawing.Point(215, 305);
+            this.btnAddCustomer.Location = new System.Drawing.Point(244, 304);
             this.btnAddCustomer.Name = "btnAddCustomer";
             this.btnAddCustomer.Size = new System.Drawing.Size(145, 23);
             this.btnAddCustomer.TabIndex = 6;
@@ -122,7 +122,7 @@
             // 
             // btnUpdateCustomer
             // 
-            this.btnUpdateCustomer.Location = new System.Drawing.Point(381, 305);
+            this.btnUpdateCustomer.Location = new System.Drawing.Point(410, 304);
             this.btnUpdateCustomer.Name = "btnUpdateCustomer";
             this.btnUpdateCustomer.Size = new System.Drawing.Size(145, 23);
             this.btnUpdateCustomer.TabIndex = 7;
@@ -151,7 +151,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(549, 305);
+            this.btnClear.Location = new System.Drawing.Point(578, 304);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(145, 23);
             this.btnClear.TabIndex = 8;
