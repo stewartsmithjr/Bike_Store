@@ -34,7 +34,8 @@ namespace Bike_Store
 
         private void productMaintenanceFormBttn_Click(object sender, EventArgs e)
         {
-
+            Product_Maintenance product = new Product_Maintenance();
+            product.ShowDialog();
         }
 
         private void customerMaintenanceFormBttn_Click(object sender, EventArgs e)
