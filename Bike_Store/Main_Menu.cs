@@ -44,5 +44,21 @@ namespace Bike_Store
                 form.ShowDialog();
             }
         }
+
+        private void salesReportsFormBttn_Click(object sender, EventArgs e)
+        {
+            using (Sales_Report form = new Sales_Report())
+            {
+                form.ShowDialog();
+            }
+        }
+
+        private void errorLogFormBttn_Click(object sender, EventArgs e)
+        {
+            using (Error_Log form = new Error_Log())
+            {
+                form.ShowDialog();
+            }
+        }
     }
 }

@@ -30,6 +30,51 @@ namespace Bike_Store
             }
             return valid;
         }
+        public static DateTime CombineDateAndTime(DateTimePicker datePicker, DateTimePicker timePicker)
+        {
+            return datePicker.Value.Date
+                .AddHours(timePicker.Value.Hour)
+                .AddMinutes(timePicker.Value.Minute);
+        }
+
+        public static bool ValidDateTimeRange(
+            DateTimePicker startDate, DateTimePicker startTime,
+            DateTimePicker endDate, DateTimePicker endTime)
+        {
+            DateTime start = CombineDateAndTime(startDate, startTime);
+            DateTime end = CombineDateAndTime(endDate, endTime);
+
+            if (start > DateTime.Now)
+            {
+                MessageBox.Show("The start date and time cannot be in the future.", "# Validation Error #", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                (startDate.Value.Date == DateTime.Today ? startTime : startDate).Focus();
+                return false;
+            }
+
+            if (start > end)
+            {
+                MessageBox.Show("The start date and time must be on or before the end date and time.", "# Validation Error #", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                (startDate.Value.Date == endDate.Value.Date ? endTime : endDate).Focus();
+                return false;
+            }
+            return true;
+        }
+
+        public static void ResetDateTimeRange(
+            DateTimePicker startDate, DateTimePicker startTime,
+            DateTimePicker endDate, DateTimePicker endTime)
+        {
+            DateTime today = DateTime.Today;
+
+            startDate.MaxDate = today;
+            endDate.MaxDate = today;
+
+            startDate.Value = new DateTime(today.Year, today.Month, 1);
+            startTime.Value = today;
+            endDate.Value = today;
+            endTime.Value = today.AddHours(23).AddMinutes(59);
+        }
+
         public static void ClearControls(Control parent)
         {
             foreach (Control control in parent.Controls)
