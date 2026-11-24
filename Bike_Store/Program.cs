@@ -16,7 +16,7 @@ namespace Bike_Store
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main_Menu());
+            Application.Run(new Login_Form());
             // Application.Run(new Invoice());
         }
     }
