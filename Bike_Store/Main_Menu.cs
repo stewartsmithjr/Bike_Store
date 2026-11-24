@@ -39,7 +39,10 @@ namespace Bike_Store
 
         private void customerMaintenanceFormBttn_Click(object sender, EventArgs e)
         {
-
+            using (Customer_Maintenance form = new Customer_Maintenance())
+            {
+                form.ShowDialog();
+            }
         }
 
         private void errorLogFormBttn_Click(object sender, EventArgs e)
