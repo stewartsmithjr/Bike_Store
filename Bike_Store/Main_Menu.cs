@@ -34,7 +34,7 @@ namespace Bike_Store
 
         private void productMaintenanceFormBttn_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void customerMaintenanceFormBttn_Click(object sender, EventArgs e)
@@ -45,9 +45,20 @@ namespace Bike_Store
             }
         }
 
+        private void salesReportsFormBttn_Click(object sender, EventArgs e)
+        {
+            using (Sales_Report form = new Sales_Report())
+            {
+                form.ShowDialog();
+            }
+        }
+
         private void errorLogFormBttn_Click(object sender, EventArgs e)
         {
-
+            using (Error_Log form = new Error_Log())
+            {
+                form.ShowDialog();
+            }
         }
 
         private void logoutBttn_Click(object sender, EventArgs e)
@@ -55,14 +66,9 @@ namespace Bike_Store
 
         }
 
-        private void salesReportsFormBttn_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void shoppingCartFormBttn_Click(object sender, EventArgs e)
         {
-
+           
         }
     }
 }

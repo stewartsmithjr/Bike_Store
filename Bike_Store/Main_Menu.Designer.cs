@@ -33,6 +33,7 @@
             this.ordersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maintencanceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salesReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.errorLogToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mainMenuLabel = new System.Windows.Forms.Label();
@@ -81,15 +82,25 @@
             // 
             // reportsToolStripMenuItem
             // 
+            this.reportsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.salesReportToolStripMenuItem});
             this.reportsToolStripMenuItem.Name = "reportsToolStripMenuItem";
             this.reportsToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
             this.reportsToolStripMenuItem.Text = "Reports";
+            // 
+            // salesReportToolStripMenuItem
+            // 
+            this.salesReportToolStripMenuItem.Name = "salesReportToolStripMenuItem";
+            this.salesReportToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salesReportToolStripMenuItem.Text = "Sales Report";
+            this.salesReportToolStripMenuItem.Click += new System.EventHandler(this.salesReportsFormBttn_Click);
             // 
             // errorLogToolStripMenuItem
             // 
             this.errorLogToolStripMenuItem.Name = "errorLogToolStripMenuItem";
             this.errorLogToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.errorLogToolStripMenuItem.Text = "Error Log";
+            this.errorLogToolStripMenuItem.Click += new System.EventHandler(this.errorLogFormBttn_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -154,7 +165,11 @@
             this.errorLogFormBttn.Size = new System.Drawing.Size(240, 39);
             this.errorLogFormBttn.TabIndex = 4;
             this.errorLogFormBttn.Text = "Error Log";
+<<<<<<< HEAD
             this.errorLogFormBttn.UseVisualStyleBackColor = false;
+=======
+            this.errorLogFormBttn.UseVisualStyleBackColor = true;
+>>>>>>> origin/feature/error-log-sales-report
             this.errorLogFormBttn.Click += new System.EventHandler(this.errorLogFormBttn_Click);
             // 
             // productMaintenanceFormBttn
@@ -184,7 +199,11 @@
             this.salesReportsFormBttn.Size = new System.Drawing.Size(221, 39);
             this.salesReportsFormBttn.TabIndex = 6;
             this.salesReportsFormBttn.Text = "Sales Reports";
+<<<<<<< HEAD
             this.salesReportsFormBttn.UseVisualStyleBackColor = false;
+=======
+            this.salesReportsFormBttn.UseVisualStyleBackColor = true;
+>>>>>>> origin/feature/error-log-sales-report
             this.salesReportsFormBttn.Click += new System.EventHandler(this.salesReportsFormBttn_Click);
             // 
             // logoutBttn
@@ -235,6 +254,7 @@
         private System.Windows.Forms.ToolStripMenuItem ordersToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem maintencanceToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reportsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salesReportToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem errorLogToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.Label mainMenuLabel;
