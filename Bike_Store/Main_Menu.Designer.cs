@@ -165,11 +165,10 @@
             this.errorLogFormBttn.Size = new System.Drawing.Size(240, 39);
             this.errorLogFormBttn.TabIndex = 4;
             this.errorLogFormBttn.Text = "Error Log";
-<<<<<<< HEAD
+
             this.errorLogFormBttn.UseVisualStyleBackColor = false;
-=======
-            this.errorLogFormBttn.UseVisualStyleBackColor = true;
->>>>>>> origin/feature/error-log-sales-report
+
+            
             this.errorLogFormBttn.Click += new System.EventHandler(this.errorLogFormBttn_Click);
             // 
             // productMaintenanceFormBttn
@@ -199,11 +198,11 @@
             this.salesReportsFormBttn.Size = new System.Drawing.Size(221, 39);
             this.salesReportsFormBttn.TabIndex = 6;
             this.salesReportsFormBttn.Text = "Sales Reports";
-<<<<<<< HEAD
+
             this.salesReportsFormBttn.UseVisualStyleBackColor = false;
-=======
-            this.salesReportsFormBttn.UseVisualStyleBackColor = true;
->>>>>>> origin/feature/error-log-sales-report
+
+       
+
             this.salesReportsFormBttn.Click += new System.EventHandler(this.salesReportsFormBttn_Click);
             // 
             // logoutBttn
