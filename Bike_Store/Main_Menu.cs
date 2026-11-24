@@ -34,9 +34,11 @@ namespace Bike_Store
 
         private void productMaintenanceFormBttn_Click(object sender, EventArgs e)
         {
-            
+            using (Product_Maintenance form = new Product_Maintenance())
+            {
+                form.ShowDialog();
+            }
         }
-
         private void customerMaintenanceFormBttn_Click(object sender, EventArgs e)
         {
             using (Customer_Maintenance form = new Customer_Maintenance())
@@ -68,7 +70,10 @@ namespace Bike_Store
 
         private void shoppingCartFormBttn_Click(object sender, EventArgs e)
         {
-           
+            using (Shopping_Cart form = new Shopping_Cart())
+            {
+                form.ShowDialog();
+            }
         }
     }
 }
