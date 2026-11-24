@@ -47,6 +47,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.ordersToolStripMenuItem,
@@ -56,45 +57,45 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1067, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // ordersToolStripMenuItem
             // 
             this.ordersToolStripMenuItem.Name = "ordersToolStripMenuItem";
-            this.ordersToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.ordersToolStripMenuItem.Size = new System.Drawing.Size(67, 24);
             this.ordersToolStripMenuItem.Text = "Orders";
             // 
             // maintencanceToolStripMenuItem
             // 
             this.maintencanceToolStripMenuItem.Name = "maintencanceToolStripMenuItem";
-            this.maintencanceToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
+            this.maintencanceToolStripMenuItem.Size = new System.Drawing.Size(108, 24);
             this.maintencanceToolStripMenuItem.Text = "Maintenance";
             this.maintencanceToolStripMenuItem.Click += new System.EventHandler(this.maintencanceToolStripMenuItem_Click);
             // 
             // reportsToolStripMenuItem
             // 
             this.reportsToolStripMenuItem.Name = "reportsToolStripMenuItem";
-            this.reportsToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.reportsToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.reportsToolStripMenuItem.Text = "Reports";
             // 
             // errorLogToolStripMenuItem
             // 
             this.errorLogToolStripMenuItem.Name = "errorLogToolStripMenuItem";
-            this.errorLogToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.errorLogToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
             this.errorLogToolStripMenuItem.Text = "Error Log";
             // 
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // mainMenuLabel
@@ -104,28 +105,32 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.mainMenuLabel.AutoSize = true;
             this.mainMenuLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mainMenuLabel.Location = new System.Drawing.Point(204, 48);
-            this.mainMenuLabel.MaximumSize = new System.Drawing.Size(1000, 0);
+            this.mainMenuLabel.Location = new System.Drawing.Point(272, 59);
+            this.mainMenuLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.mainMenuLabel.MaximumSize = new System.Drawing.Size(1333, 0);
             this.mainMenuLabel.Name = "mainMenuLabel";
-            this.mainMenuLabel.Size = new System.Drawing.Size(356, 37);
+            this.mainMenuLabel.Size = new System.Drawing.Size(438, 46);
             this.mainMenuLabel.TabIndex = 1;
             this.mainMenuLabel.Text = "Bike Store — Main Menu";
             this.mainMenuLabel.Click += new System.EventHandler(this.mainMenuLabel_Click);
             // 
             // shoppingCartFormBttn
             // 
-            this.shoppingCartFormBttn.Location = new System.Drawing.Point(129, 149);
+            this.shoppingCartFormBttn.Location = new System.Drawing.Point(172, 183);
+            this.shoppingCartFormBttn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.shoppingCartFormBttn.Name = "shoppingCartFormBttn";
-            this.shoppingCartFormBttn.Size = new System.Drawing.Size(240, 23);
+            this.shoppingCartFormBttn.Size = new System.Drawing.Size(320, 28);
             this.shoppingCartFormBttn.TabIndex = 2;
             this.shoppingCartFormBttn.Text = "Shopping Cart ";
             this.shoppingCartFormBttn.UseVisualStyleBackColor = true;
+            this.shoppingCartFormBttn.Click += new System.EventHandler(this.shoppingCartFormBttn_Click);
             // 
             // customerMaintenanceFormBttn
             // 
-            this.customerMaintenanceFormBttn.Location = new System.Drawing.Point(129, 194);
+            this.customerMaintenanceFormBttn.Location = new System.Drawing.Point(172, 239);
+            this.customerMaintenanceFormBttn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.customerMaintenanceFormBttn.Name = "customerMaintenanceFormBttn";
-            this.customerMaintenanceFormBttn.Size = new System.Drawing.Size(240, 23);
+            this.customerMaintenanceFormBttn.Size = new System.Drawing.Size(320, 28);
             this.customerMaintenanceFormBttn.TabIndex = 3;
             this.customerMaintenanceFormBttn.Text = "Customer Maintenance";
             this.customerMaintenanceFormBttn.UseVisualStyleBackColor = true;
@@ -133,18 +138,20 @@
             // 
             // errorLogFormBttn
             // 
-            this.errorLogFormBttn.Location = new System.Drawing.Point(129, 250);
+            this.errorLogFormBttn.Location = new System.Drawing.Point(172, 308);
+            this.errorLogFormBttn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.errorLogFormBttn.Name = "errorLogFormBttn";
-            this.errorLogFormBttn.Size = new System.Drawing.Size(240, 23);
+            this.errorLogFormBttn.Size = new System.Drawing.Size(320, 28);
             this.errorLogFormBttn.TabIndex = 4;
             this.errorLogFormBttn.Text = "Error Log";
             this.errorLogFormBttn.UseVisualStyleBackColor = true;
             // 
             // productMaintenanceFormBttn
             // 
-            this.productMaintenanceFormBttn.Location = new System.Drawing.Point(434, 149);
+            this.productMaintenanceFormBttn.Location = new System.Drawing.Point(579, 183);
+            this.productMaintenanceFormBttn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.productMaintenanceFormBttn.Name = "productMaintenanceFormBttn";
-            this.productMaintenanceFormBttn.Size = new System.Drawing.Size(221, 23);
+            this.productMaintenanceFormBttn.Size = new System.Drawing.Size(295, 28);
             this.productMaintenanceFormBttn.TabIndex = 5;
             this.productMaintenanceFormBttn.Text = "Product Maintenance";
             this.productMaintenanceFormBttn.UseVisualStyleBackColor = true;
@@ -152,9 +159,10 @@
             // 
             // salesReportsFormBttn
             // 
-            this.salesReportsFormBttn.Location = new System.Drawing.Point(434, 194);
+            this.salesReportsFormBttn.Location = new System.Drawing.Point(579, 239);
+            this.salesReportsFormBttn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.salesReportsFormBttn.Name = "salesReportsFormBttn";
-            this.salesReportsFormBttn.Size = new System.Drawing.Size(221, 23);
+            this.salesReportsFormBttn.Size = new System.Drawing.Size(295, 28);
             this.salesReportsFormBttn.TabIndex = 6;
             this.salesReportsFormBttn.Text = "Sales Reports";
             this.salesReportsFormBttn.UseVisualStyleBackColor = true;
@@ -162,18 +170,19 @@
             // logoutBttn
             // 
             this.logoutBttn.AutoEllipsis = true;
-            this.logoutBttn.Location = new System.Drawing.Point(434, 250);
+            this.logoutBttn.Location = new System.Drawing.Point(579, 308);
+            this.logoutBttn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.logoutBttn.Name = "logoutBttn";
-            this.logoutBttn.Size = new System.Drawing.Size(221, 23);
+            this.logoutBttn.Size = new System.Drawing.Size(295, 28);
             this.logoutBttn.TabIndex = 7;
             this.logoutBttn.Text = "Logout";
             this.logoutBttn.UseVisualStyleBackColor = true;
             // 
             // Main_Menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.logoutBttn);
             this.Controls.Add(this.salesReportsFormBttn);
             this.Controls.Add(this.productMaintenanceFormBttn);
@@ -183,6 +192,7 @@
             this.Controls.Add(this.mainMenuLabel);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Main_Menu";
             this.Text = "Main Menu";
             this.Load += new System.EventHandler(this.Main_Menu_Load);

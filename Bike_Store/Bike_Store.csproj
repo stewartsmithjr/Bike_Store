@@ -64,8 +64,20 @@
     <Compile Include="Main_Menu.Designer.cs">
       <DependentUpon>Main_Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Product_Maintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product_Maintenance.Designer.cs">
+      <DependentUpon>Product_Maintenance.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shopping_Cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shopping_Cart.Designer.cs">
+      <DependentUpon>Shopping_Cart.cs</DependentUpon>
+    </Compile>
     <Compile Include="Validation_Helper.cs" />
     <EmbeddedResource Include="Customer_Maintenance.resx">
       <DependentUpon>Customer_Maintenance.cs</DependentUpon>
@@ -85,6 +97,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Shopping_Cart.resx">
+      <DependentUpon>Shopping_Cart.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
