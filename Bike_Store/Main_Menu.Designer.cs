@@ -104,79 +104,105 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.mainMenuLabel.AutoSize = true;
-            this.mainMenuLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mainMenuLabel.Location = new System.Drawing.Point(272, 59);
-            this.mainMenuLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.mainMenuLabel.MaximumSize = new System.Drawing.Size(1333, 0);
+            this.mainMenuLabel.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mainMenuLabel.Location = new System.Drawing.Point(247, 76);
+            this.mainMenuLabel.MaximumSize = new System.Drawing.Size(1000, 0);
             this.mainMenuLabel.Name = "mainMenuLabel";
-            this.mainMenuLabel.Size = new System.Drawing.Size(438, 46);
+            this.mainMenuLabel.Size = new System.Drawing.Size(318, 32);
             this.mainMenuLabel.TabIndex = 1;
             this.mainMenuLabel.Text = "Bike Store — Main Menu";
             this.mainMenuLabel.Click += new System.EventHandler(this.mainMenuLabel_Click);
             // 
             // shoppingCartFormBttn
             // 
-            this.shoppingCartFormBttn.Location = new System.Drawing.Point(172, 183);
-            this.shoppingCartFormBttn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.shoppingCartFormBttn.BackColor = System.Drawing.Color.Gainsboro;
+            this.shoppingCartFormBttn.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.shoppingCartFormBttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.shoppingCartFormBttn.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.shoppingCartFormBttn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.shoppingCartFormBttn.Location = new System.Drawing.Point(133, 159);
             this.shoppingCartFormBttn.Name = "shoppingCartFormBttn";
-            this.shoppingCartFormBttn.Size = new System.Drawing.Size(320, 28);
+            this.shoppingCartFormBttn.Size = new System.Drawing.Size(240, 39);
             this.shoppingCartFormBttn.TabIndex = 2;
             this.shoppingCartFormBttn.Text = "Shopping Cart ";
-            this.shoppingCartFormBttn.UseVisualStyleBackColor = true;
+            this.shoppingCartFormBttn.UseVisualStyleBackColor = false;
             this.shoppingCartFormBttn.Click += new System.EventHandler(this.shoppingCartFormBttn_Click);
             // 
             // customerMaintenanceFormBttn
             // 
-            this.customerMaintenanceFormBttn.Location = new System.Drawing.Point(172, 239);
-            this.customerMaintenanceFormBttn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.customerMaintenanceFormBttn.BackColor = System.Drawing.Color.Gainsboro;
+            this.customerMaintenanceFormBttn.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.customerMaintenanceFormBttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.customerMaintenanceFormBttn.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customerMaintenanceFormBttn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.customerMaintenanceFormBttn.Location = new System.Drawing.Point(133, 215);
             this.customerMaintenanceFormBttn.Name = "customerMaintenanceFormBttn";
-            this.customerMaintenanceFormBttn.Size = new System.Drawing.Size(320, 28);
+            this.customerMaintenanceFormBttn.Size = new System.Drawing.Size(240, 39);
             this.customerMaintenanceFormBttn.TabIndex = 3;
             this.customerMaintenanceFormBttn.Text = "Customer Maintenance";
-            this.customerMaintenanceFormBttn.UseVisualStyleBackColor = true;
+            this.customerMaintenanceFormBttn.UseVisualStyleBackColor = false;
             this.customerMaintenanceFormBttn.Click += new System.EventHandler(this.customerMaintenanceFormBttn_Click);
             // 
             // errorLogFormBttn
             // 
-            this.errorLogFormBttn.Location = new System.Drawing.Point(172, 308);
-            this.errorLogFormBttn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.errorLogFormBttn.BackColor = System.Drawing.Color.Gainsboro;
+            this.errorLogFormBttn.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.errorLogFormBttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.errorLogFormBttn.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errorLogFormBttn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.errorLogFormBttn.Location = new System.Drawing.Point(133, 271);
             this.errorLogFormBttn.Name = "errorLogFormBttn";
-            this.errorLogFormBttn.Size = new System.Drawing.Size(320, 28);
+            this.errorLogFormBttn.Size = new System.Drawing.Size(240, 39);
             this.errorLogFormBttn.TabIndex = 4;
             this.errorLogFormBttn.Text = "Error Log";
-            this.errorLogFormBttn.UseVisualStyleBackColor = true;
+            this.errorLogFormBttn.UseVisualStyleBackColor = false;
+            this.errorLogFormBttn.Click += new System.EventHandler(this.errorLogFormBttn_Click);
             // 
             // productMaintenanceFormBttn
             // 
-            this.productMaintenanceFormBttn.Location = new System.Drawing.Point(579, 183);
-            this.productMaintenanceFormBttn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.productMaintenanceFormBttn.BackColor = System.Drawing.Color.Gainsboro;
+            this.productMaintenanceFormBttn.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.productMaintenanceFormBttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.productMaintenanceFormBttn.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.productMaintenanceFormBttn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.productMaintenanceFormBttn.Location = new System.Drawing.Point(438, 159);
             this.productMaintenanceFormBttn.Name = "productMaintenanceFormBttn";
-            this.productMaintenanceFormBttn.Size = new System.Drawing.Size(295, 28);
+            this.productMaintenanceFormBttn.Size = new System.Drawing.Size(221, 39);
             this.productMaintenanceFormBttn.TabIndex = 5;
             this.productMaintenanceFormBttn.Text = "Product Maintenance";
-            this.productMaintenanceFormBttn.UseVisualStyleBackColor = true;
+            this.productMaintenanceFormBttn.UseVisualStyleBackColor = false;
             this.productMaintenanceFormBttn.Click += new System.EventHandler(this.productMaintenanceFormBttn_Click);
             // 
             // salesReportsFormBttn
             // 
-            this.salesReportsFormBttn.Location = new System.Drawing.Point(579, 239);
-            this.salesReportsFormBttn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.salesReportsFormBttn.BackColor = System.Drawing.Color.Gainsboro;
+            this.salesReportsFormBttn.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.salesReportsFormBttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.salesReportsFormBttn.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.salesReportsFormBttn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.salesReportsFormBttn.Location = new System.Drawing.Point(438, 215);
             this.salesReportsFormBttn.Name = "salesReportsFormBttn";
-            this.salesReportsFormBttn.Size = new System.Drawing.Size(295, 28);
+            this.salesReportsFormBttn.Size = new System.Drawing.Size(221, 39);
             this.salesReportsFormBttn.TabIndex = 6;
             this.salesReportsFormBttn.Text = "Sales Reports";
-            this.salesReportsFormBttn.UseVisualStyleBackColor = true;
+            this.salesReportsFormBttn.UseVisualStyleBackColor = false;
+            this.salesReportsFormBttn.Click += new System.EventHandler(this.salesReportsFormBttn_Click);
             // 
             // logoutBttn
             // 
             this.logoutBttn.AutoEllipsis = true;
-            this.logoutBttn.Location = new System.Drawing.Point(579, 308);
-            this.logoutBttn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.logoutBttn.BackColor = System.Drawing.Color.Gainsboro;
+            this.logoutBttn.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.logoutBttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.logoutBttn.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logoutBttn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.logoutBttn.Location = new System.Drawing.Point(438, 271);
             this.logoutBttn.Name = "logoutBttn";
-            this.logoutBttn.Size = new System.Drawing.Size(295, 28);
+            this.logoutBttn.Size = new System.Drawing.Size(221, 39);
             this.logoutBttn.TabIndex = 7;
             this.logoutBttn.Text = "Logout";
-            this.logoutBttn.UseVisualStyleBackColor = true;
+            this.logoutBttn.UseVisualStyleBackColor = false;
+            this.logoutBttn.Click += new System.EventHandler(this.logoutBttn_Click);
             // 
             // Main_Menu
             // 
@@ -191,6 +217,7 @@
             this.Controls.Add(this.shoppingCartFormBttn);
             this.Controls.Add(this.mainMenuLabel);
             this.Controls.Add(this.menuStrip1);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Main_Menu";
